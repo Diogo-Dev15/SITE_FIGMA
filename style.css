@@ -1,0 +1,149 @@
+.Spider{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+}
+body {
+   background: linear-gradient(to right, #FA5D5D,  #304081);
+   background-size: cover;
+   margin: 0%;
+}
+
+.Spider img{
+   width: 600px;
+   height: 500px;
+ }
+
+ .spidey{
+  position: fixed;
+   padding-bottom: 20px;
+   left: -535px;
+
+ }
+
+ .spidey img{
+ width: 200px;
+ height: auto;
+ }
+  .p1{
+  font-size: 20px;
+  display: flex;
+  transform: translateY(-450%);
+  justify-content: end;
+  left: 190px; 
+  padding-right: 20px;
+  color: white
+ }
+
+ .p2{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-90%, -50%);
+    margin: 0;
+    font-weight: bold;
+    font-size: 245px;
+    font-family: 'Konkhmer Sleokchher', sans-serif; 
+    white-space: nowrap;
+    z-index: 1;
+    color: white;
+    
+ 
+ }
+
+ .p3 {
+    position: absolute;
+    top: 32%;
+    left: 58%;
+    font-size: 245px;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    z-index: 10;
+    transform: scale(1.1);
+    color: white;
+}
+
+.descricao{
+   position: fixed;
+   bottom: -25px;
+   width: 450px;
+   right: -73%;
+   color: white;
+   font-size: 22px;
+
+}
+
+.sling{
+   position: fixed;
+   font-size: 40px;
+   right: -63%;
+   bottom: -30%;
+   color: white;
+   background: transparent;
+   border: 5px solid white;
+   width: 160px;
+}
+
+.sling span{
+   color: rgb(202, 103, 10);
+}
+
+@media (max-width:600px) {
+   
+   html, body{
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+   }
+
+   
+
+   .Spider{
+       left: 55%;
+       top: 45%;
+   }
+
+   .p1{
+      position: fixed;
+      left: 61%;
+      top: 12%;
+      font-size: 14px;
+   }
+
+   .p2{
+      font-size:65px;
+      left: 30%;
+      top: 45%;
+      transform: translate(-50%, -50%);
+   }
+
+   .p3{
+      font-size: 58px;
+      top: 38%;
+      left: 67%;
+      transform: none;
+   }
+
+   .descricao{
+     position: fixed;
+      width: 90%;
+      left: 20%;
+      right: auto;
+      bottom: -130px;
+      font-size: 14px;
+      line-height: 1.5;
+   }
+
+   .sling{
+      display: none;
+   }
+   .Spider img{
+      width: 300px;
+      height: auto   ;
+   }
+}
+
