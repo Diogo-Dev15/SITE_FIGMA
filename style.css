@@ -191,12 +191,16 @@ body {
    }
 
    .Spider img{
-      width: 590px;
+      width: 480px;
       height: auto;
    }
 
    .p1{
       font-size: 27px;
+      line-height: 1.1;
+      position: fixed;
+      left: 435px;
+      
    }
 
    .p2{
@@ -204,23 +208,24 @@ body {
    }
 
    .p3{
-      font-size: 103px;
+      font-size: 100px;
       top: 455px;
-      left: 500px;
+      left: 480px;
    }
 
    .sling{
       width: 123px;
       height: 70px;
-      left: 600px;
-      top: 930px
+      left: 570px;
+      top: 870px
    }
+   
 
-   .spidey{
-      width: 340px;
-      height: 240px;
-      left: 60px;
-      top: 880px;
+   .descricao{
+      font-size: 19px;
+      left: 260px;
+      top: 710px;
+     text-align: left;
    }
 }
 
