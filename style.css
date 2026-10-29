@@ -1,6 +1,6 @@
 .Spider{
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -13,20 +13,20 @@ body {
 }
 
 .Spider img{
-   width: 600px;
-   height: 500px;
+   width: 462px;
+   height: 470px;
  }
 
  .spidey{
   position: fixed;
-   padding-bottom: 20px;
-   left: -535px;
-
+   padding-bottom: 2%0;
+   left: -415px;
  }
 
  .spidey img{
- width: 200px;
+ width: 93px;
  height: auto;
+ padding-top: -50%;
  }
   .p1{
   font-size: 20px;
@@ -34,18 +34,20 @@ body {
   transform: translateY(-450%);
   justify-content: end;
   left: 190px; 
-  padding-right: 20px;
+  padding-top: -60px;
+  padding-right: 30px;
   color: white
+  
  }
 
  .p2{
     position: absolute;
     top: 50%;
-    left: 47%;
+    left: 45%;
     transform: translate(-90%, -50%);
     margin: 0;
     font-weight: bold;
-    font-size: 245px;
+    font-size: 180px;
     font-family: 'Konkhmer Sleokchher', sans-serif; 
     white-space: nowrap;
     z-index: 1;
@@ -56,9 +58,9 @@ body {
 
  .p3 {
     position: absolute;
-    top: 32%;
-    left: 58%;
-    font-size: 245px;
+    top: 35%;
+    left: 57%;
+    font-size: 180px;
     font-family: 'Konkhmer Sleokchher', sans-serif;
     font-weight: bold;
     margin: 0;
@@ -69,23 +71,26 @@ body {
 
 .descricao{
    position: fixed;
-   bottom: -25px;
+   bottom: -10px;
    width: 450px;
-   right: -73%;
+   right: -67%;
    color: white;
-   font-size: 22px;
+   font-size: 16  px;
+   text-align: left;
+   line-height: 1.3;
 
 }
 
 .sling{
    position: fixed;
-   font-size: 40px;
-   right: -63%;
-   bottom: -30%;
+   font-size: 24px;
+   right: -67%;
+   bottom: -15%;
    color: white;
    background: transparent;
    border: 5px solid white;
-   width: 160px;
+   width: 120px;
+   height: 43px;
 }
 
 .sling span{
@@ -100,50 +105,124 @@ body {
       overflow-x: hidden;
    }
 
+   .Logo img{
+      width: 140px;
+      height: auto;
+   }
+
+   .Spider img{
+      width: 305px;
+      height: auto   ;
+   }
    
 
    .Spider{
-       left: 55%;
-       top: 45%;
+       left: 53%;
+       top: 53%;
    }
+
+   .spidey{
+      left: 26px;
+      top: 560px;
+   }
+
+   .spidey img{
+      display: block;
+    width: 85px;
+   }
+
+   
 
    .p1{
       position: fixed;
-      left: 61%;
-      top: 12%;
-      font-size: 14px;
+      left: 59%;
+      top: 11%;
+      font-size: 13px;
    }
 
    .p2{
-      font-size:65px;
+      font-size: 58px;
       left: 30%;
-      top: 45%;
+      top: 53%;
       transform: translate(-50%, -50%);
    }
 
    .p3{
-      font-size: 58px;
-      top: 38%;
-      left: 67%;
+      font-size: 51px;
+      top: 48%;
+      left: 66%;
       transform: none;
    }
 
    .descricao{
      position: fixed;
       width: 90%;
-      left: 20%;
+      left: 30%;
       right: auto;
       bottom: -130px;
       font-size: 14px;
       line-height: 1.5;
+      display: none;
    }
 
    .sling{
-      display: none;
+      width: 103px;
+      height: 45px;
+      left: 245px;
+      top: 590px;
    }
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+   html, body{
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+   }
+
+   .Logo img{
+      width: 40%;
+      height: auto;
+   }
+
+   .Spider{
+      left: 380px;
+      top: 520px;
+   }
+
    .Spider img{
-      width: 300px;
-      height: auto   ;
+      width: 590px;
+      height: auto;
+   }
+
+   .p1{
+      font-size: 27px;
+   }
+
+   .p2{
+      font-size: 103px;
+   }
+
+   .p3{
+      font-size: 103px;
+      top: 455px;
+      left: 500px;
+   }
+
+   .sling{
+      width: 123px;
+      height: 70px;
+      left: 600px;
+      top: 930px
+   }
+
+   .spidey{
+      width: 340px;
+      height: 240px;
+      left: 60px;
+      top: 880px;
    }
 }
+
 
